@@ -1,0 +1,11 @@
+http://lunomarketplace.com/cpanel
+
+lunokini
+
+FSFXHpy3ZbMp
+
+https://cpanel-p282.web-hosting.com
+
+
+
+this what i change in the database: STRICT_TRANS_TABLES
