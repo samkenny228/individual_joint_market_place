@@ -1,0 +1,637 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    border-top: 10px solid red;
+}
+.div_jumbo{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 8%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.div_jumbo_alert{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 8%;
+    padding-bottom: 30px; 
+}
+.div_alert_form{
+    text-align: center;
+}
+.div_view_or_page{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 10%;
+    height: 480px;
+    padding-bottom: 30px;
+    overflow-x: auto;
+}
+.inp_reg_style{
+    width: 85%;
+    height: 45px;
+    margin-bottom: 13px;
+    background-color: yellow;
+    border: 2px solid red;
+    padding-left: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+.btn_reg_submit{
+    width: 70%;
+    height: 40px;
+    background-color:green;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+.inp_search{
+    width: 80%;
+    height: 45px;
+    background-color: yellow;
+    border: 2px solid red;
+    padding-left: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+.btn_search{
+    width: 15%;
+    height: 40px;
+    background-color:green;
+    border: 3px solid blue;
+    border-radius: 5px;
+    color: black;
+}
+.div_display_search{
+    width: 80%;
+    max-height: 100px;
+    margin-bottom: 13px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-top: none;
+    padding-left: 8px;
+    border-radius: 5px;
+    overflow-x: auto;
+    position: relative;
+}
+.reg_heading{
+    text-align: center;  
+}
+.reg_footer{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+.div_jumbo_login{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 20%;
+    text-align: center;
+    padding-bottom: 30px; 
+}
+.con_jumbo_search{
+    max-height: 400;
+}
+.div_jumbo_search{
+    padding: 20px;
+    padding-left: 60px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    padding-bottom: 15px; 
+    height: 100px;
+}
+.div_jumbo_edit_profile{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 3%;
+    text-align: center;
+    padding-bottom: 30px; 
+}
+.div_jumbo_newpassword{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 15%;
+    text-align: center;
+    padding-bottom: 30px;  
+}
+.h1_heading{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: yellow;
+    border-top: 10px solid red;
+    border-bottom: 1px solid black;
+    padding: 4px;
+}
+.span_heading{
+    float: right;
+    font-size: 20px;
+}
+.span_icon{
+    color: black;
+}
+.reg_p_img{
+    padding-top: 5px;
+}
+.reg_p_img::-webkit-file-upload-button{
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: yellowgreen;
+}
+.reg_p_discription{
+    height: 60px;
+}
+.btn_display_p_category{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+.btn_display_orders{
+    background-color: transparent;
+    border: none;   
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+.divshow {
+    width: 100%;
+    padding: 9px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+.divinnershow{
+      position: fixed;
+      top:0; left:0; 
+      z-index: 1100;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      width: 100%;
+}
+.insidediv{
+    background-color: yellow;
+    height: 550px;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.btncancel{
+    background-color: transparent;
+    border: none;
+    float: right;
+    font-size: 20px;
+    color: black;
+}
+.btncancel_text{
+    background-color: transparent;
+    float: right;
+    font-size: 20px;
+    color: black;
+    border-radius: 2px solid black;
+}
+.div_display_category{
+    height: 390px;
+    overflow-x: auto;
+    text-align: center;
+}
+.div_display_orders{
+    height: 390px;
+    overflow-x: auto;
+}
+.link_display_category{
+    color: black;
+}
+.link_display_category:hover{
+    color: green;
+    text-decoration: none;
+}
+.div_inside_display_category{
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+.div_inside_display_orders{
+    border: 2px solid red;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+.span_mark_orders{
+    float: right;
+}
+.link_brand_name{
+    color: black;
+    text-decoration: none;
+}
+.link_brand_name:hover{
+    color: black;
+    text-decoration: none;
+}
+.div_while_pp{
+    width: 46%; 
+    height: 360px; 
+    background-color:white; 
+    display:inline-block; 
+    margin-left:8px; 
+    margin-bottom: 10px;
+    overflow-x: auto;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.div_while_orp{
+    width: 46%; 
+    height: 350px; 
+    background-color:white; 
+    display:inline-block; 
+    margin-left:8px; 
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius: 8px;  
+}
+.div_while_p{
+    margin: 5px;
+}
+.advert_box_pp{
+    width: 46%;
+    height:80px; 
+    background-color:yellowgreen; 
+    display:inline-block; 
+    margin-left:8px; 
+    margin-bottom: 10px;
+    overflow-x: auto;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.div_while_inner_orp{
+    height: 280px;
+}
+.orp_image{
+    width: 100%;
+    height: 190px;
+    padding: 5px;
+    border-radius: 5px;  
+}
+.p_image{
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.div_p_details{
+    background-color: yellowgreen; 
+    margin: 5px; 
+    padding:5px; 
+    border-radius:5px;
+    height: 80px;
+    overflow-x: auto;
+}
+.span_p_details{
+    color: rgb(112, 107, 107);
+}
+.div_btn_p{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+.div_link_p{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+.btn_p{
+    margin:2px;
+    height: 40px;
+    background-color:green;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+.link_p{
+    width: 80%;
+    height: 40px;
+    background-color:green;
+    border: 3px solid blue;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+.link_p:hover{
+    width: 80%;
+    height: 40px;
+    background-color:green;
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+.btn_or_complete{
+    width: 50%;
+    height: 40px;
+    background-color:green;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+.div_copy_p_link{
+    text-align: center;
+}
+.inp_copy_p_link{
+    text-align: center;
+    font-size: 15px;
+}
+.div_while_inner_pp{
+    height: 240px;
+}
+.h1_heading_order_page{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: yellow;
+    border-top: 10px solid red;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+.link_cart_icon{
+    color: black;
+    text-decoration: none;
+}
+.link_cart_icon:hover{
+    color: black;
+    text-decoration: none;
+}
+.or_image{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.span_bank_detailes{
+    color: rgb(177, 175, 175);
+}
+.h1_orders{
+    text-align: center;
+}
+.span_who_or{
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+}
+.div_or_complete{
+    margin-top: 10px;
+    text-align: center;
+}
+.blow_adds_view_or_page{
+    margin-top: 30px;
+}
+.btn_logout{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+.div_log{
+    margin-top: 20px;
+}
+.log_link{
+    color: rgb(158, 157, 157);
+    text-decoration: none;
+}
+.log_link:hover{
+    color: rgb(158, 157, 157);
+    text-decoration: none;
+}
+.pend_or{
+    background-color: red;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.view_or{
+    background-color:yellow;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 10px;
+}
+.sent_or{
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin: 10px;
+}
+.header_home_link{
+    color: black;
+    text-decoration: none;
+}
+.header_home_link:hover{
+    color: black;
+    text-decoration: none;
+}
+.img_social{
+    height: 30px;
+    width: 30px;
+}
+
+.product_service{
+    font-size: 25px;
+}
+.btn_copy_p_c{
+    background-color: transparent;
+    border: none;
+    color: green;
+    font-size: 20px;
+}
+#myInput{
+    width: 75%;
+    height: 45px;
+    margin-bottom: 13px;
+    background-color: yellow;
+    border: 2px solid red;
+    padding-left: 8px;
+    border-radius: 5px;
+    outline: none; 
+}
+.div_add_map{
+    height: 390px;
+    overflow-x: auto;
+}
+.drop_d{
+    background-color: transparent;
+    border: none;
+    color:black;
+}
+.input_bio{
+    width: 85%;
+    height: 200px;
+    margin-bottom: 13px;
+    background-color: yellow;
+    border: 2px solid red;
+    padding-left: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+.link_drop_p{
+    color:black;
+}
+.link_drop_p:hover{
+    color:black;
+    text-decoration:none;
+}
+.btn_delete_location{
+    background-color: transparent;
+    color:black;
+    border: 1px solid black;
+}
+.ul_loc .li_loc{
+    padding: 5px;
+    list-style-type: none;
+}
+.div_ingoplace{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 8%;
+    padding-bottom: 30px;
+}
+.div_inergoplace{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.div_jumbo_chathistory{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 8%;
+    padding-bottom: 30px;
+    height: 490px;
+    overflow: auto;
+}
+.div_jumbo_chat{
+    padding: 20px;
+    background-color: rgb(219, 248, 185);
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 8%;
+    padding-bottom: 30px;
+    height: 520px;
+}
+.div_in_chat{
+    padding: 8px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    height: 320px;
+    overflow: auto; 
+}
+.div_input_chat{
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    overflow: auto; 
+    text-align: center;
+}
+.span_in_chat{
+    font-size: 20px;
+    margin: 5px;
+}
+.inp_chat{
+    width: 75%;
+    height: 40px;
+    margin-bottom: 13px;
+    background-color: yellow;
+    border: 2px solid red;
+    padding-left: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+.start_chat_div{
+    text-align: center;
+    padding-top: 40px;
+}
+.span_online{
+    color:blue;
+    font-size:30px;
+}
+.span_offline{
+    color: rgb(139, 139, 139);
+    font-size:30px;
+}
+.small_lastmsg{
+    margin-left: 5px;
+}
+.span_offline_small{
+    color: rgb(139, 139, 139);
+    font-size:15px;
+}
+.h4_chatbuyer{
+    height: 37px;
+    overflow: auto;
+}
+.div_in_chat .chat .small_chat{
+   padding: 3px 6px; 
+}
+.div_in_chat .outgoing_chat{
+    display: flex;
+}
+.outgoing_chat .chat_detailes{
+    margin-left: auto;
+    max-width: calc(100% - 80px);
+}
+.outgoing_chat .chat_detailes .small_chat{
+border: 1px solid red;
+border-radius: 18px 18px 0 18px;
+}
+.h6_incomingchat{
+    margin: 0;
+}
+.incoming_chat .chat_detailes{
+    margin-right: auto;
+    max-width: calc(100% - 80px);
+}
+.incoming_chat .chat_detailes .small_chat{
+    border: 1px solid red;
+    border-radius: 18px 18px 18px 0px;
+    }
+.link_chathistory{
+        color: black;
+        text-decoration: none;
+    }
+.link_chathistory:hover{
+        color: black;
+        text-decoration: none;
+}
+.btn_sendchat{
+    background-color: transparent;
+    border: none;
+}
+.inp_p_search{
+    background-color: transparent;
+    border: none;
+    color:black;
+}
